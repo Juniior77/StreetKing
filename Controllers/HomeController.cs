@@ -26,5 +26,20 @@ namespace StreetKing.Controllers
 
             return View();
         }
+
+        public ActionResult Tarifs()
+        {
+            ViewBag.Message = "Your tarif page.";
+
+            return View();
+        }
+
+        public ActionResult Réalisations()
+        {
+            ViewBag.Message = "Your réalisation page.";
+
+            return View();
+        }
+        
     }
 }
